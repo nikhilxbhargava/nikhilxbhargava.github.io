@@ -145,7 +145,7 @@ const Details = ({ profile, loading, social, github }) => {
               )}
               {social?.goodreads && (
                 <ListItem
-                  icon={<FaGoodreadsG className="mr-2" />}
+                  icon={<FaGoodreads className="mr-2" />}
                   title="Goodreads:"
                   value={social.goodreads}
                   link={`https://www.goodreads.com/${social.goodreads}`}
