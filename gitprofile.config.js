@@ -12,6 +12,7 @@ const config = {
   },
   social: {
     linkedin: 'nikhilxbhargava',
+    goodreads: 'nikhilbhargava',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -24,7 +25,7 @@ const config = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: '',
+    website: 'h',
     phone: '',
     email: 'nikhil.bhargava@gmail.com',
   },
@@ -35,6 +36,7 @@ const config = {
   skills: [
     'C++',
     'Python',
+    'React',
     'R',
     'SQL',
     'Git',
@@ -84,7 +86,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'luxury',
+    defaultTheme: 'winter',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode

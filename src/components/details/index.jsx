@@ -142,6 +142,14 @@ const Details = ({ profile, loading, social, github }) => {
                   link={`https://www.linkedin.com/in/${social.linkedin}`}
                 />
               )}
+              {social?.goodreads && (
+                <ListItem
+                  icon={<FaGoodreadsG className="mr-2" />}
+                  title="Goodreads:"
+                  value={social.goodreads}
+                  link={`https://www.goodreads.com/${social.goodreads}`}
+                />
+              )}
               {social?.dribbble && (
                 <ListItem
                   icon={<CgDribbble />}
