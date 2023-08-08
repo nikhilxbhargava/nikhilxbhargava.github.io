@@ -20,7 +20,7 @@ import {
   FaTelegram,
   FaLinkedin,
   FaYoutube,
-  FaGoodreads,
+  FaGoodreadsG,
 } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 import { skeleton } from '../../helpers/utils';
@@ -145,7 +145,7 @@ const Details = ({ profile, loading, social, github }) => {
               )}
               {social?.goodreads && (
                 <ListItem
-                  icon={<FaGoodreads className="mr-2" />}
+                  icon={<FaGoodreadsG />}
                   title="Goodreads:"
                   value={social.goodreads}
                   link={`https://www.goodreads.com/${social.goodreads}`}
