@@ -109,6 +109,7 @@ const config = {
       'black',
       'luxury',
       'night',
+      'winter',
     ],
 
     // Custom theme
