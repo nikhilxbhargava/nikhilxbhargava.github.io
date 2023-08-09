@@ -105,14 +105,10 @@ const config = {
       'retro',
       'procyon',
       'garden',
-      'cmyk',
       'aqua',
       'black',
       'luxury',
-      'business',
       'night',
-      'winter',
-      'procyon',
     ],
 
     // Custom theme
